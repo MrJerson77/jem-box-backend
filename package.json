@@ -1,0 +1,17 @@
+{
+    "name": "jem-box-backend",
+    "version": "1.0.0",
+    "description": "Backend y Bot de Telegram para Jem Box",
+    "main": "start.sh",
+    "scripts": {
+      "start": "bash start.sh",
+      "postinstall": "cd backend && npm install && cd ../bot && npm install"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    },
+    "dependencies": {},
+    "keywords": ["telegram", "bot", "express", "supabase"],
+    "author": "Jem Box",
+    "license": "MIT"
+  }

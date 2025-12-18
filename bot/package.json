@@ -1,0 +1,17 @@
+{
+    "name": "jem-box-bot",
+    "version": "1.0.0",
+    "main": "bot.js",
+    "scripts": {
+      "start": "node bot.js",
+      "dev": "nodemon bot.js"
+    },
+    "dependencies": {
+      "telegraf": "^4.16.3",
+      "@supabase/supabase-js": "^2.38.0",
+      "dotenv": "^16.0.3"
+    },
+    "engines": {
+      "node": ">=18.0.0"
+    }
+  }
