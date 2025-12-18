@@ -69,7 +69,7 @@ bot.start(async (ctx) => {
       ctx.reply(
         `❌ *No estás registrado en Jem Box*\n\n` +
         `Hola ${firstName}, para recibir notificaciones debes registrarte primero en nuestra plataforma.\n\n` +
-        `🔗 Regístrate aquí: dominio.com\n\n` +
+        `🔗 Regístrate aquí: jem-box.vercel.app\n\n` +
         `📱 Tu ID de Telegram es: \`${telegramId}\`\n` +
         `Úsalo al registrarte para vincular tu cuenta.`,
         { parse_mode: 'Markdown' }
@@ -100,7 +100,7 @@ bot.start(async (ctx) => {
           `• Actualizaciones importantes\n`;
       }
 
-      message += `\n🛒 Visita: dominio.com`;
+      message += `\n🛒 Visita: jem-box.vercel.app`;
       
       ctx.reply(message, { parse_mode: 'Markdown' });
     }
